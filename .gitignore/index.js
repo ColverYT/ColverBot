@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-client.login(process.env.TOKEN);
+client.login('NzExOTYxMDI1NjIwMDgyNzQ4.XsKnYA.sB3Y9JfhXs-jjAS4mJkGP0_T-30');
 client.once('ready', () => {
     console.log('K-ONNN!');
     var time = 60
